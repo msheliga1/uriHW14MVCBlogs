@@ -1,7 +1,6 @@
 const router = require('express').Router();
 
-console.log("Starting to load controllers/index.js routes.");
-console.info("Starting to load controllers/index.js routes.");
+console.info("Starting to load controllers/index.js routes. Works in Blogs repo, but not in blog_ repo.");
 const apiRoutes = require('./api');
 const homeRoutes = require('./homeRoutes');
 
